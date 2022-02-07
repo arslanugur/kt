@@ -125,8 +125,32 @@ fun main() {
 
 
 // Lecture 5: Doubles
+// Doubles have a primitive a type and are the standard representation for floating point numbers in Kotlin.
+// As with Integers, you can use underscores '_' to make the numbers more readable.
+// Basic operations, such as addition, substraction, multiplication and division, are available via the operators +, -, *, /
+// Example:
+package basics
+
+fun main() {
+  // Double
+  val x = 1.25
+  val y = 5.0
+  val z = 1_000_000.0
+  
+  // Operators
+  println(x + y)       // 6.25
+  println(y - x)       // 3.75
+  println(z * x)       // 1250000.0
+  println(z / y)       // 200000.0
+}
 
 
+// Lecture 6: Arrays
+// Arrays are ordered, constant-sized sets of elements. Double and Integer arrays can be crated with the corresponding utility function.
+// With the "reversedArray" function, you can reverse an array. Further, you can use for-in loops to iterate over the elements of an array.
+// The indexOf method return the index of an element inside an array. You can use the index operator"[...]" to access the elements of an array.
+// Finally, "size" returns the number of elements of the array (3 in this example)
+// Example:
 
 
 
